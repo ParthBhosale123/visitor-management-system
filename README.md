@@ -22,10 +22,10 @@ A **full-stack Visitor Management System** to handle visitor requests and approv
 
 ## 🛠 Tech Stack
 
-**Frontend:** React, Axios, Tailwind CSS. 
-**Backend:** Node.js, Express.js. 
-**Database:** MongoDB (Mongoose). 
-**Authentication:** JSON Web Tokens (JWT). 
+* **Frontend:** React, Axios, Tailwind CSS
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB (Mongoose)
+* **Authentication:** JSON Web Tokens (JWT) 
 
 ---
 
