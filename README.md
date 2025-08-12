@@ -11,93 +11,134 @@ A **full-stack Visitor Management System** to handle visitor requests and approv
 ---
 
 ## ✨ Features
-- ✅ Add, update, and delete visitor entries  
-- 🔑 Role-based access control (Admin & HR)  
-- 📊 Approval/rejection workflow for requests  
-- 🔒 Secure API with JWT authentication  
-- 📱 Fully responsive UI design  
+
+* ✅ Add, update, and delete visitor entries
+* 🔑 Role-based access control (Admin & HR)
+* 📊 Approval/rejection workflow for requests
+* 🔒 Secure API with JWT authentication
+* 📱 Fully responsive UI design
 
 ---
 
 ## 🛠 Tech Stack
-**Frontend:** React, Axios, Bootstrap / Tailwind CSS  
-**Backend:** Node.js, Express.js  
-**Database:** MongoDB (Mongoose)  
-**Authentication:** JSON Web Tokens (JWT)  
+
+**Frontend:** React, Axios, Tailwind CSS
+**Backend:** Node.js, Express.js
+**Database:** MongoDB (Mongoose)
+**Authentication:** JSON Web Tokens (JWT)
 
 ---
 
 ## 📂 Project Structure
-visitor-management-system/
-│── backend/ # Node.js + Express backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middleware/
-│ ├── server.js
-│ └── .env # Environment variables (ignored in git)
-│
-│── frontend/ # React frontend
-│ ├── src/
-│ ├── public/
-│ └── package.json
-│
-└── package.json # Root config for both frontend & backend
 
+```plaintext
+visitor-management-system/
+├── backend/                # Node.js + Express backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── server.js
+│   └── .env                 # Environment variables (ignored in git)
+│
+├── frontend/               # React frontend
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+└── package.json            # Root config for both frontend & backend
+```
 
 ---
 
 ## 🚀 Installation & Setup
+
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/ParthBhosale123/visitor-management-system.git
 cd visitor-management-system
+```
 
-2️⃣ Backend Setup
+### 2️⃣ Backend Setup
+
+```bash
 cd backend
 npm install
+```
 
-Create a .env file inside backend/:
+Create a `.env` file inside `backend/`:
+
+```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+```
 
-Start the backend server: npm start
+Start the backend server:
 
-3️⃣ Frontend Setup
+```bash
+npm start
+```
+
+### 3️⃣ Frontend Setup
+
+```bash
 cd ../frontend
 npm install
 npm start
+```
 
-4️⃣ Run Both Frontend & Backend Together (Optional)
-If you set up concurrently in the root package.json: npm start
+### 4️⃣ Run Both Frontend & Backend Together (Optional)
 
-📷 Screenshots
-Dashboard
-<img width="1909" height="955" alt="Screenshot 2025-08-12 123651" src="https://github.com/user-attachments/assets/30922f7d-0e35-472f-9895-ede75119d8ca" />
-<img width="1910" height="957" alt="Screenshot 2025-08-12 123715" src="https://github.com/user-attachments/assets/e5ff8e29-001f-408f-b9ce-314cfccc8115" />
+If you set up `concurrently` in the root `package.json`:
 
-Admin Login Page
-<img width="1906" height="957" alt="Screenshot 2025-08-12 123621" src="https://github.com/user-attachments/assets/3b868744-36ae-45bf-9172-056a2ecf32a7" />
+```bash
+npm start
+```
 
-Add Visitor Form
-<img width="1911" height="961" alt="Screenshot 2025-08-12 123549" src="https://github.com/user-attachments/assets/a667e19f-20ab-4423-824b-a431d636c13a" />
+---
 
+## 📷 Screenshots
 
-⚠️ Environment Variables
-The following environment variables must be set in your .env file inside backend/:
+### Dashboard
+
+<img width="1909" height="955" alt="Dashboard" src="https://github.com/user-attachments/assets/30922f7d-0e35-472f-9895-ede75119d8ca" />
+<img width="1910" height="957" alt="Dashboard 2" src="https://github.com/user-attachments/assets/e5ff8e29-001f-408f-b9ce-314cfccc8115" />
+
+### Admin Login Page
+
+<img width="1906" height="957" alt="Admin Login" src="https://github.com/user-attachments/assets/3b868744-36ae-45bf-9172-056a2ecf32a7" />
+
+### Add Visitor Form
+
+<img width="1911" height="961" alt="Add Visitor" src="https://github.com/user-attachments/assets/a667e19f-20ab-4423-824b-a431d636c13a" />
+
+---
+
+## ⚠️ Environment Variables
+
+The following environment variables must be set in your `.env` file inside `backend/`:
+
 | Variable     | Description                          |
 | ------------ | ------------------------------------ |
 | `PORT`       | Port number for backend (e.g., 5000) |
 | `MONGO_URI`  | MongoDB connection string            |
 | `JWT_SECRET` | Secret key for JWT authentication    |
-Important: Never commit .env files — they are already ignored using .gitignore.
 
-📜 License
-This project is licensed under the MIT License — you are free to use, modify, and distribute it.
+> **Important:** Never commit `.env` files — they are already ignored using `.gitignore`.
 
-💡 Author
-Parth Bhosale
-📧 Email: parthb00009@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/parthbhosale09/
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — you are free to use, modify, and distribute it.
+
+---
+
+## 💡 Author
+
+**Parth Bhosale**
+📧 Email: [parthb00009@gmail.com](mailto:parthb00009@gmail.com)
+🔗 LinkedIn: [linkedin.com/in/parthbhosale09](https://www.linkedin.com/in/parthbhosale09/)
 🔗 GitHub: [ParthBhosale123](https://github.com/ParthBhosale123)
