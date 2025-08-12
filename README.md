@@ -140,5 +140,5 @@ This project is licensed under the **MIT License** — you are free to use, modi
 
 **Parth Bhosale**
 📧 Email: [parthb00009@gmail.com](mailto:parthb00009@gmail.com)
-🔗 LinkedIn: [linkedin.com/in/parthbhosale09](https://www.linkedin.com/in/parthbhosale09/)
-🔗 GitHub: [ParthBhosale123](https://github.com/ParthBhosale123)
+🔗 [LinkedIn](https://www.linkedin.com/in/parthbhosale09/)
+🔗 [GitHub](https://github.com/ParthBhosale123)
